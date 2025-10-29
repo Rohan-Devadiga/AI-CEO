@@ -6,14 +6,37 @@ Additionally, the AI can provide **live Amazon stock prices** using the `yfinanc
 
 ---
 
-## Features
+## Project Overview
 
-- **AI Chat:** Talk to a virtual Jeff Bezos for business insights or casual conversation.  
-- **Live Stock Price:** Get the latest Amazon (AMZN) stock price anytime.  
-- **Interactive & Fun:** Experience a realistic conversation with the AI CEO.  
+AI CEO is designed to give users an interactive experience with a virtual version of Jeff Bezos.  
+It can answer business questions, provide insights, and even fetch live Amazon stock prices.  
 
 ---
 
+## Tech Stack
+
+- **Python** – main programming language  
+- **GEMINI API** – for chat responses  
+- **yfinance** – for real-time stock data  
+- **.env** – to safely store API keys  
+- **VS Code / Terminal** – recommended environment  
+
+---
+
+## How It Works
+
+1. User sends a message to the AI CEO.  
+2. The AI generates a response using a language model.  
+3. If the user asks for Amazon’s stock price, the AI fetches live data using `yfinance`.  
+4. The conversation continues interactively.  
+
+---
+
+## Use Cases
+
+- Ask for business advice from Jeff Bezos’ AI.  
+- Get Amazon’s live stock price quickly.  
+- Fun interaction for tech enthusiasts and investors.  
 ## Installation
 
 1. **Clone the repository:**
